@@ -40,4 +40,24 @@
 
   }
 
+  &--accessories-2{
+
+    @media screen and (min-width: 800px){
+      padding-bottom: 70px;
+    }
+
+  }
+
+  &--creative{
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 800px){
+      padding-bottom: 100px;
+    }
+
+    @media screen and (min-width: 1020px){
+      padding-bottom: 130px;
+    }
+  }
+
 }
