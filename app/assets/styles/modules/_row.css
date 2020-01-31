@@ -1,0 +1,13 @@
+.row{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+
+  &--header{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+}

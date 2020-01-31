@@ -1,0 +1,31 @@
+.heading{
+
+  &--small{
+    font-weight: 500;
+    line-height: 17px;
+    margin: 0px;
+  }
+
+  &--medium{
+    font-size: 20px;
+    line-height: 27px;
+    width: 280px;
+  }
+
+  &--large{
+    font-size: responsive 22px 35px;
+  }
+
+
+  &--about{
+    max-width: 420px;
+  }
+
+  &__border-bottom{
+    border-bottom: 5px solid black;
+    max-width: 100px;
+    margin-bottom: 40px;
+  }
+
+
+}

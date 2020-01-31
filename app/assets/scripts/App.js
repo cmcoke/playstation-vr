@@ -2,10 +2,10 @@ import '../styles/styles.css'
 import 'picturefill'
 import 'lazysizes'
 import 'flickity'
+import Menu from './modules/Menu'
 
 
-
-
+let menu = new Menu()
 
 
 
