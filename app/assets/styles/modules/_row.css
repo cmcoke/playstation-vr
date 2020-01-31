@@ -10,4 +10,20 @@
     align-items: center;
   }
 
+  @media screen and (min-width: 800px){
+
+    flex-direction: row;
+    align-items: center;
+
+    &--gutters{
+      margin-right: -48px;
+    }
+
+
+    &--gutters > div{
+      padding-right: 63px;
+    }
+
+  }
+
 }

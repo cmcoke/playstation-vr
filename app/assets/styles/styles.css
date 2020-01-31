@@ -5,6 +5,11 @@
 @import "flickity/dist/flickity.min.css";
 @import "modules/_wrapper";
 @import "modules/_row";
+@import "modules/_column";
 @import "modules/_page-section";
 @import "modules/_header";
 @import "modules/_hero";
+@import "modules/_box-shadow";
+@import "modules/_heading";
+@import "modules/_text-content";
+@import "modules/_links";

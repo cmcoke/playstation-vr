@@ -46,12 +46,6 @@
       margin-left: 10px;
     }
 
-    & img{
-      background-color: white;
-      border-radius: 100%;
-      box-shadow: 3px 12px 22px -5px rgba(194,194,194,1);
-    }
   }
-
 
 }

@@ -1,0 +1,23 @@
+.column {
+  @media screen and (min-width: 800px) {
+    &--4 {
+      width: 50%;
+    }
+
+    &--8 {
+      width: 50%;
+    }
+  }
+
+  @media screen and (min-width: 1020px) {
+    &--4 {
+      width: 33.33%;
+    }
+
+    &--8 {
+      width: 66.66%;
+    }
+  }
+
+
+}
