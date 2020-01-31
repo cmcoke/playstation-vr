@@ -3,4 +3,16 @@
   max-width: 100%;
   font-size: 15px;
   line-height: 25px;
+
+  &--accessories-2{
+
+    @media screen and (min-width: 800px){
+      max-width: 90%;
+    }
+
+    @media screen and (min-width: 1020px){
+      max-width: 60%;
+    }
+
+  }
 }

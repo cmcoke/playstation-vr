@@ -24,6 +24,26 @@
       padding-right: 63px;
     }
 
+    &--gutters > .column--accessories-2-text-content,
+    &--gutters > .column--accessories-2-img{
+      padding-right: 0px;
+      margin-left: 37px;
+    }
   }
+
+  & .column--accessories-1-img{
+
+    @media screen and (min-width: 800px){
+      order: 1;
+    }
+  }
+
+  & .column--accessories-1-text-content{
+
+    @media screen and (min-width: 800px){
+      order: 2;
+    }
+  }
+
 
 }

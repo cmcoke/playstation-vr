@@ -1,15 +1,41 @@
 .page-section{
-  padding: 1.2rem 0;
 
-  @media screen and (min-width: 800px ){
-    padding-bottom: 4.5rem;
+  &--about{
+
+    padding-bottom: 55px;
+
+    @media screen and (min-width: 800px){
+      padding-bottom: 120px;
+    }
+
+    @media screen and (min-width: 1020px){
+      padding-bottom: 180px;
+    }
+
   }
 
   &--design{
-    padding-top: 2rem;
 
-    @media screen and (min-width: 800px ){
-      padding-top: 4rem;
+    padding-bottom: 40px;
+
+    @media screen and (min-width: 800px){
+      padding-bottom: 70px;
+    }
+
+    @media screen and (min-width: 1020px){
+      padding-bottom: 90px;
+    }
+
+  }
+
+  &--accessories-1{
+
+    @media screen and (min-width: 800px){
+      padding-bottom: 50px;
+    }
+
+    @media screen and (min-width: 1020px){
+      padding-bottom: 80px;
     }
 
   }
