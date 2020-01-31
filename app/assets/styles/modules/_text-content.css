@@ -1,8 +1,6 @@
 .text-content{
   color: #6D6D6D;
   max-width: 100%;
-  /* line-height: responsive 22px 24px; */
-  /* font-size: responsive 15px 17px; */
-  font-size: 16px;
+  font-size: 15px;
   line-height: 25px;
 }

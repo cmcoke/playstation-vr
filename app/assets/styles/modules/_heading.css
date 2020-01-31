@@ -4,6 +4,8 @@
     font-weight: 500;
     line-height: 17px;
     margin: 0px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 
   &--medium{
@@ -13,19 +15,22 @@
   }
 
   &--large{
-    font-size: responsive 22px 35px;
+    font-size: responsive 22px 40px;
   }
 
 
   &--about{
-    max-width: 420px;
+    max-width: 480px;
   }
 
   &__border-bottom{
-    border-bottom: 5px solid black;
+    border-bottom: 7px solid black;
     max-width: 100px;
     margin-bottom: 40px;
   }
 
+  &--design{
+    text-align: center;
+  }
 
 }
