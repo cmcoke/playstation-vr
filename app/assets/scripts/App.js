@@ -3,10 +3,10 @@ import 'picturefill'
 import 'lazysizes'
 import 'flickity'
 import Menu from './modules/Menu'
-
+import SmoothScroll from './modules/SmoothScroll'
 
 let menu = new Menu()
-
+let smoothScroll = new SmoothScroll();
 
 
 

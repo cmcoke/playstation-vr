@@ -4,7 +4,7 @@
   top: 0px;
   background-color: white;
   border-bottom: 1px solid #F6F5F5;
-  padding: 12px 0px;
+  padding: 5px 0px;
   z-index: 5;
 
   /* MENU ICON */
@@ -13,7 +13,7 @@
     height: 19px;
     position: absolute;
     z-index: 4;
-    top: 22px;
+    top: 19px;
     right: 11px;
     cursor: pointer;
 

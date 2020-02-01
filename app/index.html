@@ -13,6 +13,7 @@
 <body>
   <div class="content">
 
+    <div class="target"></div>
     <!-- HEADER -->
     <header class="header">
 
@@ -78,7 +79,7 @@
 
     </section>
 
-
+    <div class="target2"></div>
     <!-- ABOUT -->
     <section class="page-section page-section--about">
 
@@ -93,9 +94,9 @@
           <div class="column column--about-img">
 
             <picture>
-              <source sizes="1000px" srcset="assets/images/about--large.jpg 1000w, assets/images/about--large-hi-dpi.jpg 2000w" media="(min-width: 1020px)">
-              <source sizes="500px" srcset="assets/images/about--medium.jpg 500w, assets/images/about--medium-hi-dpi.jpg 1000w" media="(min-width: 800px)">
-              <img class="lazyloads box-shadow box-shadow--img" srcset="assets/images/about--small.jpg 800w, assets/images/about--small-hi-dpi.jpg 1600w" alt="A demo of the PlayStation VR">
+              <source sizes="1000px" data-srcset="assets/images/about--large.jpg 1000w, assets/images/about--large-hi-dpi.jpg 2000w" media="(min-width: 1020px)">
+              <source sizes="500px" data-srcset="assets/images/about--medium.jpg 500w, assets/images/about--medium-hi-dpi.jpg 1000w" media="(min-width: 800px)">
+              <img class="lazyload box-shadow box-shadow--img" data-srcset="assets/images/about--small.jpg 800w, assets/images/about--small-hi-dpi.jpg 1600w" alt="A demo of the PlayStation VR">
             </picture>
 
           </div>
@@ -118,6 +119,7 @@
     </section>
 
 
+    <div class="target3"></div>
     <!-- DESIGN -->
     <section class="design page-section page-section--design">
 
@@ -127,7 +129,7 @@
         <h1 class="heading heading--center heading--large ">Industry Leading Design</h1>
 
         <div class="design__headset-img">
-          <img src="assets/images/design.png" alt="PlayStation VR headset">
+          <img data-srcset="assets/images/design.png" alt="PlayStation VR headset" class="lazyload">
         </div>
 
 
@@ -137,7 +139,7 @@
     </section>
 
 
-
+    <div class="target4"></div>
     <!-- PLAYSTATION VR STICKS AND CAMERA -->
     <section class="page-section page-section--accessories-1">
 
@@ -158,7 +160,7 @@
           </div>
 
           <div class="column column--accessories-1-img">
-            <img src="assets/images/accessories--1c.png" alt="PlayStation VR Sticks and Camera">
+            <img data-srcset="assets/images/accessories--1c.png" alt="PlayStation VR Sticks and Camera" class="lazyload">
           </div>
 
         </div>
@@ -189,7 +191,7 @@
           </div>
 
           <div class="column column--accessories-2-img">
-            <img src="assets/images/accessories--2.png" alt="PlayStation VR and PS4">
+            <img data-srcset="assets/images/accessories--2.png" alt="PlayStation VR and PS4" class="lazyload">
           </div>
 
         </div>
@@ -200,7 +202,7 @@
 
 
 
-
+    <div class="target5"></div>
     <!-- CREATIVE HERAITAGE ... -->
     <section class="page-section page-section--creative">
 
@@ -212,7 +214,7 @@
         <div class="row">
 
           <div class="column column--creative-img">
-            <img src="assets/images/creative.png" alt="A man wearing the PlayStation VR headerset">
+            <img data-srcset="assets/images/creative.png" alt="A man wearing the PlayStation VR headerset" class="lazyload">
           </div>
 
           <div class="column column--creative-text-content">
@@ -244,17 +246,17 @@
         <h1 class="heading heading--large heading--center">PS VR Draws Innovative games</h1>
       </div>
 
-        <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true,  "prevNextButtons": false, "wrapAround": true, "pageDots": true, "autoPlay": 6000}'>
+        <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true,  "prevNextButtons": false, "wrapAround": true, "pageDots": true, "autoPlay": 6000,  "lazyLoad": 3}'>
 
           <div class="carousel-cell">
 
             <div class="carousel__content">
 
-              <img src="assets/images/game--1.png" alt="playstation vr game">
+              <img data-flickity-lazyload-srcset="assets/images/game--1.png" alt="playstation vr game">
 
               <div class="carousel__video">
                 <a href="https://www.youtube.com/watch?v=yFnciHpEOMI" target="_blank" rel="noreferrer">
-                  <img src="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
+                  <img data-flickity-lazyload-srcset="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
                 </a>
                 <p>Watch Trailer</p>
               </div>
@@ -266,11 +268,11 @@
           <div class="carousel-cell">
             <div class="carousel__content">
 
-              <img src="assets/images/game--2.jpg" alt="playstation vr game">
+              <img data-flickity-lazyload-srcset="assets/images/game--2.jpg" alt="playstation vr game">
 
               <div class="carousel__video">
                 <a href="https://www.youtube.com/watch?v=yFnciHpEOMI" target="_blank" rel="noreferrer">
-                  <img src="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
+                  <img data-flickity-lazyload-srcset="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
                 </a>
                 <p>Watch Trailer</p>
               </div>
@@ -281,11 +283,11 @@
           <div class="carousel-cell">
             <div class="carousel__content">
 
-              <img src="assets/images/game--3.jpg" alt="playstation vr game">
+              <img data-flickity-lazyload-srcset="assets/images/game--3.jpg" alt="playstation vr game">
 
               <div class="carousel__video">
                 <a href="https://www.youtube.com/watch?v=yFnciHpEOMI" target="_blank" rel="noreferrer">
-                  <img src="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
+                  <img data-flickity-lazyload-srcset="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
                 </a>
                 <p>Watch Trailer</p>
               </div>
@@ -296,11 +298,11 @@
           <div class="carousel-cell">
             <div class="carousel__content">
 
-              <img src="assets/images/game--4.jpg" alt="playstation vr game">
+              <img data-flickity-lazyload-srcset="assets/images/game--4.jpg" alt="playstation vr game">
 
               <div class="carousel__video">
                 <a href="https://www.youtube.com/watch?v=yFnciHpEOMI" target="_blank" rel="noreferrer">
-                  <img src="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
+                  <img data-flickity-lazyload-srcset="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
                 </a>
                 <p>Watch Trailer</p>
               </div>
@@ -311,11 +313,11 @@
           <div class="carousel-cell">
             <div class="carousel__content">
 
-              <img src="assets/images/game--5.jpg" alt="playstation vr game">
+              <img data-flickity-lazyload-srcset="assets/images/game--5.jpg" alt="playstation vr game">
 
               <div class="carousel__video">
                 <a href="https://www.youtube.com/watch?v=yFnciHpEOMI" target="_blank" rel="noreferrer">
-                  <img src="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
+                  <img data-flickity-lazyload-srcset="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
                 </a>
                 <p>Watch Trailer</p>
               </div>
@@ -326,11 +328,11 @@
           <div class="carousel-cell">
             <div class="carousel__content">
 
-              <img src="assets/images/game--6.jpg" alt="playstation vr game">
+              <img data-flickity-lazyload-srcset="assets/images/game--6.jpg" alt="playstation vr game">
 
               <div class="carousel__video">
                 <a href="https://www.youtube.com/watch?v=yFnciHpEOMI" target="_blank" rel="noreferrer">
-                  <img src="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
+                  <img data-flickity-lazyload-srcset="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
                 </a>
                 <p>Watch Trailer</p>
               </div>
@@ -341,11 +343,11 @@
           <div class="carousel-cell">
             <div class="carousel__content">
 
-              <img src="assets/images/game--7.jpg" alt="playstation vr game">
+              <img data-flickity-lazyload-srcset="assets/images/game--7.jpg" alt="playstation vr game">
 
               <div class="carousel__video">
                 <a href="https://www.youtube.com/watch?v=yFnciHpEOMI" target="_blank" rel="noreferrer">
-                  <img src="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
+                  <img data-flickity-lazyload-srcset="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
                 </a>
                 <p>Watch Trailer</p>
               </div>
@@ -356,11 +358,11 @@
           <div class="carousel-cell">
             <div class="carousel__content">
 
-              <img src="assets/images/game--8.png" alt="playstation vr game">
+              <img data-flickity-lazyload-srcset="assets/images/game--8.png" alt="playstation vr game">
 
               <div class="carousel__video">
                 <a href="https://www.youtube.com/watch?v=yFnciHpEOMI" target="_blank" rel="noreferrer">
-                  <img src="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
+                  <img data-flickity-lazyload-srcset="assets/images/icons/play-button.png" alt="play button" class="box-shadow  box-shadow--play-button-game">
                 </a>
                 <p>Watch Trailer</p>
               </div>
@@ -384,7 +386,7 @@
         <div class="row row--site-location">
 
           <div class="site-location__text-content">
-            <img src="assets/images/logo--ps4.png" alt="playstation 4 logo">
+            <img data-srcset="assets/images/logo--ps4.png" alt="playstation 4 logo" class="lazyload">
             <p class="text-content text-content--link">PS4&#8482; PRO gets you closer to your game. Heighten your experiences. Enrich your adventures. Let the super-charged PS4&#8482; PRO lead the way</p>
           </div>
 
@@ -437,10 +439,10 @@
       <div class="row row--footer">
 
         <div class="footer__social-media-icons">
-          <a href="#"><img src="assets/images/icons/facebook.png" alt="facebook logo"></a>
-          <a href="#"><img src="assets/images/icons/googlePlus.png" alt="google pluse logo"></a>
-          <a href="#"><img src="assets/images/icons/twitter.png" alt="twitter logo"></a>
-          <a href="#"><img src="assets/images/icons/instagram.png" alt="instagram logo"></a>
+          <a href="#"><img data-srcset="assets/images/icons/facebook.png" alt="facebook logo" class="lazyload"></a>
+          <a href="#"><img data-srcset="assets/images/icons/googlePlus.png" alt="google pluse logo" class="lazyload"></a>
+          <a href="#"><img data-srcset="assets/images/icons/twitter.png" alt="twitter logo" class="lazyload"></a>
+          <a href="#"><img data-srcset="assets/images/icons/instagram.png" alt="instagram logo" class="lazyload"></a>
         </div>
 
         <div class="footer__personal-note">
