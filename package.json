@@ -1,5 +1,5 @@
 {
-  "name": "webpack-website-setup",
+  "name": "playstation-vr",
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack-dev-server",
