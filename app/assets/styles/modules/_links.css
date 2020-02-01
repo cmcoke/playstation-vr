@@ -10,7 +10,6 @@
     right: 0;
     bottom: 0;
     width: 28px;
-    z-index: -1
   }
 
   & a {
@@ -26,5 +25,7 @@
       color: #006FCD;
     }
   }
+
+
 
 }

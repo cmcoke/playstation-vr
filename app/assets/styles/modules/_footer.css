@@ -1,0 +1,17 @@
+.footer{
+  padding-bottom: 30px;
+
+  &__social-media-icons a{
+    margin-left: 10px;
+  }
+
+  &__personal-note{
+    font-size: 13px;
+
+    & a{
+      color: #006FCD;
+    }
+  }
+
+
+}

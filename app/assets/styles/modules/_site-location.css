@@ -1,0 +1,57 @@
+.site-location{
+
+  &__text-content{
+    text-align: center;
+
+    @media screen and (min-width: 800px){
+      text-align: left;
+      width: 970px;
+    }
+
+    @media screen and (min-width: 1020px){
+      text-align: left;
+      width: 70%;
+    }
+  }
+
+  &__links{
+    text-align: center;
+
+    @media screen and (min-width: 800px){
+      text-align: left;
+      width: 400px;
+      margin-right: 11px;
+    }
+
+    @media screen and (min-width: 1020px){
+      text-align: left;
+      width: 25%;
+    }
+
+    & h4{
+      font-size: 17px;
+      font-weight: 500;
+    }
+
+  }
+
+  & li{
+    margin-bottom: 11px;
+  }
+
+  & a{
+    font-size: 14px;
+    color: #6D6D6D;
+    transition: 0.35s;
+
+    &:hover{
+      color: #006FCD;
+    }
+  }
+
+  &__gray-line{
+    margin-top: 50px;
+    border-bottom: 1px solid #E5E5E5;
+  }
+
+}

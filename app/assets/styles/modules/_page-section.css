@@ -60,4 +60,21 @@
     }
   }
 
+  &--games{
+    padding-bottom: 10px;
+
+    @media screen and (min-width: 800px){
+      padding-bottom: 20px;
+    }
+
+    @media screen and (min-width: 1020px){
+      padding-bottom: 60px;
+    }
+
+  }
+
+  &--site-location{
+    padding-bottom: 40px;
+  }
+
 }
