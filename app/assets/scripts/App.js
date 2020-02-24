@@ -4,9 +4,11 @@ import 'lazysizes'
 import 'flickity'
 import Menu from './modules/Menu'
 import SmoothScroll from './modules/SmoothScroll'
+import StickyHeader from './modules/StickyHeader'
 
 let menu = new Menu()
 let smoothScroll = new SmoothScroll();
+let stickyHeader = new StickyHeader();
 
 
 
